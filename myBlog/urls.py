@@ -19,3 +19,8 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+
+admin.site.site_header = "myBlog后台管理系统"
+admin.site.index_title = "myBlog后台管理系统首页"
+admin.site.site_title="myBlog"
